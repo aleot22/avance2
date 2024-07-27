@@ -1,0 +1,8 @@
+[{
+  "_id": "ObjectId",
+  "Nombre": "Nombre cliente",
+  "Direccion": "Right Street, 123",
+  "Telefono": "678921235",
+  "Correo Electronico": "aeiou@email.com",
+  "Fecha_Registro": "23-09-2023"
+}]

@@ -1,0 +1,51 @@
+[{
+  "_id": "ObjectId",
+  "googles": "Google#",
+  "gafas": {
+    "marca": "nombre marca",
+    "tipo_montura": [
+      "flotante",
+      "pasta",
+      "metalica"
+    ],
+    "Precio": 105.7,
+    "proveedor": {
+      "name": "Googles Associated SL",
+      "Direccion": {
+        "calle": "nombre calle",
+        "numero": "numero de puerta",
+        "piso": "numero de piso",
+        "puerta": "letra de puerta",
+        "ciudad": "ciudad",
+        "codigo postal": "08014",
+        "Pais": "nombre Pais"
+      },
+      "telefono": "123456789",
+      "fax": "123456789",
+      "nif": "12345678"
+    }
+  },
+  "bought_by": [
+    {
+      "Nombre": "Nombre cliente 1",
+      "Direccion": "Right Street, 123",
+      "Telefono": "678921235",
+      "Correo Electronico": "aeiou@email.com",
+      "Fecha_Registro": "23-09-2023"
+    },
+    {
+      "Nombre": "Nombre cliente 2",
+      "Direccion": "Right Street, 123",
+      "Telefono": "678921235",
+      "Correo Electronico": "aeiou@email.com",
+      "Fecha_Registro": "23-09-2023"
+    },
+    {
+      "Nombre": "Nombre cliente 3",
+      "Direccion": "Right Street, 123",
+      "Telefono": "678921235",
+      "Correo Electronico": "aeiou@email.com",
+      "Fecha_Registro": "23-09-2023"
+    }
+  ]
+}]

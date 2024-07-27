@@ -1,0 +1,19 @@
+[{
+  "_id": "ObjectId",
+  "Nombre": "Nombre cliente",
+  "Direccion": "Right Street, 123",
+  "Telefono": "678921235",
+  "Correo Electronico": "email@email.com",
+  "Fecha_Registro": "23-09-2023",
+  "Last_shoppings": [
+    {
+      "Marca": "Rayban",
+      "graduacion_izquierda": 2.3,
+      "graduacion_derecha": 2,
+      "tipo_montura": "metalica",
+      "color_vidrio_izquierdo": "color",
+      "color_vidrio_derecho": "color",
+      "precio": 127
+    }
+  ]
+}]
