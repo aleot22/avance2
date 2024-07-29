@@ -1,4 +1,4 @@
-import { Task } from "./task";
+import { Task } from "./Task";
 import { Taskid } from "./Taskid";
 
 export interface TaskRepository {

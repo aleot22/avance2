@@ -1,7 +1,7 @@
 import { TaskNotFoundError } from "../../domain/TaskNotFoundError";
 import { TaskRepository } from "../../domain/TaskRepository";
 import { Taskid } from "../../domain/Taskid";
-import { Task } from "../../domain/task";
+import { Task } from "../../domain/Task";
 
 export class TaskGetOneByid {
     constructor(private repository: TaskRepository) {}

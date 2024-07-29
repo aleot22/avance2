@@ -2,7 +2,7 @@ import { TaskRepository } from "../../domain/TaskRepository";
 import { Taskdescription } from "../../domain/TaskDescription";
 import { Taskid } from "../../domain/Taskid";
 import { Tasktitle } from "../../domain/Tasktitle";
-import { Task } from "../../domain/task";
+import { Task } from "../../domain/Task";
 import { TaskCompleted } from "../../domain/TaskCompleted";
 
 export class Taskcreate{

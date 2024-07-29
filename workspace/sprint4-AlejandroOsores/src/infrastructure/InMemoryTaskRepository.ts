@@ -1,6 +1,6 @@
 import { Taskid } from "../domain/Taskid";
 import { TaskRepository } from "../domain/TaskRepository";
-import { Task } from "../domain/task";
+import { Task } from "../domain/Task";
 
 export class InMemoryTaskRepository implements TaskRepository {
     private tasks: Task[] = [];

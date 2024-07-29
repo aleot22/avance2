@@ -1,13 +1,15 @@
-import express from "express";
-import workoutController from "./TaskController";
+import express, { Router } from "express";
+import {TaskController} from "./TaskController";
 
-const router = express.Router();
+const controller = new TaskController;
 
-router
-   .get("/", workoutController.getAllWorkouts)
-   .get("/:workoutId", workoutController.getOneWorkout)
-   .post("/:workoutId", workoutController.createNewWorkout)
-   .patch("/:workoutId", workoutController.updateOneWorkout)
-   .delete("/:workoutId", workoutController.deleteOneWorkout)
+const TaskRoutes = Router();
 
-   export default  {router} ;
+//mapeo de que rutas debe ejecutar cada caso de nuestro controlador
+TaskRoutes.get("/task/", controller.getAll);
+TaskRoutes.get("/task/:id/", controller.getOneById);
+TaskRoutes.post("/:task", controller.create);
+TaskRoutes.put("/:task", controller.edit);
+TaskRoutes.delete("/:task", controller.delete);
+
+export default  TaskRoutes;
