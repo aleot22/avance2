@@ -1,0 +1,18 @@
+[{
+  "_id": {
+    "$oid": "6679dfbd786c238c59dc1bb7"
+  },
+  "_Id": "ObjectId",
+  "marca": "nombre marca",
+  "graduacion_izquierda": 2,
+  "graduacion_derecha": 2,
+  "tipo_montura": [
+    "flotante",
+    "pasta",
+    "metalica"
+  ],
+  "color_montura": "color",
+  "color_vidrio_izquierdo": "color",
+  "color_vidrio_derecho": "color",
+  "precio": 127
+}]

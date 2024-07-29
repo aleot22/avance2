@@ -1,0 +1,16 @@
+[{
+  "_id": "ObjectId",
+  "Nombre": "Nombre cliente",
+  "Direccion": {
+    "calle": "nombre calle",
+    "numero": "numero de puerta",
+    "piso": "numero de piso",
+    "puerta": "letra de puerta",
+    "ciudad": "ciudad",
+    "codigo postal": "08014",
+    "Pais": "nombre Pais"
+  },
+  "telefono": "123456789",
+  "fax": "123456789",
+  "nif": "12345678"
+}]
